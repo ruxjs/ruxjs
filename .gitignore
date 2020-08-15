@@ -1,0 +1,36 @@
+# Folders to ignore
+node_modules
+dist
+build
+
+# Editor directories and files to ignore
+.DS_STORE
+.DS_Store
+.prettierrc
+.idea
+.vscode
+.prettierrc
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.history/*
+
+# Log files to ignore
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Cache files to ignore
+.yarn-cache
+yarn.lock
+
+package-lock.json
