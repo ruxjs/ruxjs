@@ -75,7 +75,8 @@ function checkModel(models) {
             `Models are required to be an object property , but got ${ isType(models) }`
         )
         for (let model in models) {
-            const m = models[model] !m.nameSpace && (m.nameSpace = model)
+            const m = models[model]
+            !m.nameSpace && (m.nameSpace = model)
             f3(m) && f4(m)
         }
     }
@@ -129,6 +130,9 @@ function mapModels(nameSpace, store, map = noop()) {
     }
     return map
 }
+
+
+
 
 const autoCollectModels = () => isAutoCollectModels = false
 
