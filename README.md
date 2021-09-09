@@ -6,10 +6,10 @@
 
 ### 1 快速安装构建
 
-对于新的项目，全局安装脚手架,rux/cli ,rux/cli搭建项目可以支持ts ,可以快速构建项目
+对于新的项目，全局安装脚手架,rux-cli ,rux-cli 搭建项目可以支持ts ,可以快速构建项目
 
 ````js
-npm install rux/cli -g 
+npm install rux-cli -g 
 ````
 
 然后新建文件夹创建项目。
